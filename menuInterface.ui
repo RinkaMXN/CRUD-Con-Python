@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>959</width>
+    <height>576</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>959</width>
+    <height>576</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>959</width>
+    <height>576</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="BotonMedicos">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>150</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #0078d7; /* Color de fondo azul */
+    color: white; /* Color del texto */
+    border: 2px solid #0078d7; /* Grosor y color del borde azul */
+    border-radius: 8px; /* Radio de los bordes (hace que el botón se vea redondeado) */
+    padding: 8px 16px; /* Espaciado interno (ajusta según el tamaño del botón) */
+}
+
+QPushButton:hover {
+    background-color: #005ca3; /* Color de fondo azul al pasar el mouse por encima */
+}
+
+QPushButton:pressed {
+    background-color: #003d66; /* Color de fondo azul al hacer clic en el botón */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Medicos</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>icons/309094.svg</normaloff>icons/309094.svg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>90</width>
+      <height>90</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="BotonEnfermeras">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>220</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #0078d7; /* Color de fondo azul */
+    color: white; /* Color del texto */
+    border: 2px solid #0078d7; /* Grosor y color del borde azul */
+    border-radius: 8px; /* Radio de los bordes (hace que el botón se vea redondeado) */
+    padding: 8px 16px; /* Espaciado interno (ajusta según el tamaño del botón) */
+}
+
+QPushButton:hover {
+    background-color: #005ca3; /* Color de fondo azul al pasar el mouse por encima */
+}
+
+QPushButton:pressed {
+    background-color: #003d66; /* Color de fondo azul al hacer clic en el botón */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Enfermeras</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>icons/309094.svg</normaloff>icons/309094.svg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>90</width>
+      <height>90</height>
+     </size>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
